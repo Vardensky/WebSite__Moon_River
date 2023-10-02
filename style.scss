@@ -3,8 +3,48 @@
 	padding: 0;
 }
 
+$white: #FFF;
+$grey: #272727; 
+
+.bgc {
+	background: linear-gradient(90deg, $white 60%,transparent 0,$grey 40%);
+}
+
 .center {
   padding-left: calc(50% - 606px);
   padding-right: calc(50% - 606px);
+}
+
+.header {
+	display: flex;
+  justify-content: space-between;
+	align-items: center;
+}
+
+.menu {
+	display: flex;
+  gap: 40px;
+}
+
+.burger {
+	margin-left: 40px;
+}
+
+.top-content {
+	margin-top: 326px;
+}
+
+.heading {
+	color: #272727;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 1.92px;
+}
+
+.hr {
+	width: 130px;
+	height: 1px;
 }
 
