@@ -19,6 +19,7 @@ $grey: #272727;
 	display: flex;
   justify-content: space-between;
 	align-items: center;
+	padding-top: 60px;
 }
 
 .menu {
@@ -30,8 +31,11 @@ $grey: #272727;
 	margin-left: 40px;
 }
 
-.top-content {
+.top__content {
 	margin-top: 326px;
+	display: flex;
+	gap: 77px;
+	flex-wrap: wrap;
 }
 
 .heading {
@@ -43,8 +47,26 @@ $grey: #272727;
 	letter-spacing: 1.92px;
 }
 
+.heading__decorate {
+	display: flex;
+	align-items: center;
+	gap: 38px;
+	flex-wrap: wrap;
+	margin-left: 196px;
+	margin-top: 66px;
+}
+
+.heading__decorate_text {
+	color: #272727;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 300;
+	line-height: normal;
+}
+
 .hr {
 	width: 130px;
 	height: 1px;
+	background: $grey;
 }
 
